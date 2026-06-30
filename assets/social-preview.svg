@@ -1,0 +1,46 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Structured AI Research Workflows</title>
+  <desc id="desc">A visual comparison between a chatbot answer and an inspectable research trail.</desc>
+  <rect width="1200" height="630" fill="#F7F5EF"/>
+  <rect x="44" y="44" width="1112" height="542" rx="24" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="2"/>
+
+  <text x="86" y="118" fill="#151515" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">AI-assisted research with receipts</text>
+  <text x="88" y="162" fill="#4A4A4A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">A chatbot can give you an answer. This workflow leaves a trail.</text>
+
+  <line x1="600" y1="210" x2="600" y2="520" stroke="#D8D4C8" stroke-width="2"/>
+
+  <text x="126" y="244" fill="#151515" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Pure chatbot</text>
+  <text x="668" y="244" fill="#151515" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Inspectable workflow</text>
+
+  <rect x="108" y="286" width="392" height="148" rx="18" fill="#EEF1F4" stroke="#C6CED8" stroke-width="2"/>
+  <text x="144" y="346" fill="#2B3440" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Answer</text>
+  <text x="144" y="386" fill="#56616F" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Smooth, useful, hard to inspect later</text>
+
+  <path d="M304 448 L304 493" stroke="#9AA4B2" stroke-width="3" stroke-linecap="round"/>
+  <path d="M294 484 L304 496 L314 484" stroke="#9AA4B2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="178" y="529" fill="#717A86" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Review happens in the user's head</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="668" y="286" width="156" height="66" rx="14" fill="#E8F1F1" stroke="#9BBFBD" stroke-width="2"/>
+    <text x="704" y="326" fill="#173C3B" font-size="20" font-weight="700">Sources</text>
+
+    <rect x="856" y="286" width="156" height="66" rx="14" fill="#E8F1F1" stroke="#9BBFBD" stroke-width="2"/>
+    <text x="897" y="326" fill="#173C3B" font-size="20" font-weight="700">Claims</text>
+
+    <rect x="668" y="404" width="156" height="66" rx="14" fill="#FFF1D7" stroke="#E2A83B" stroke-width="2"/>
+    <text x="703" y="444" fill="#5B3A00" font-size="20" font-weight="700">Review</text>
+
+    <rect x="856" y="404" width="156" height="66" rx="14" fill="#EFEDE8" stroke="#B7B0A4" stroke-width="2"/>
+    <text x="889" y="444" fill="#37322B" font-size="20" font-weight="700">Decision</text>
+  </g>
+
+  <path d="M824 319 H856" stroke="#777F89" stroke-width="3" stroke-linecap="round"/>
+  <path d="M846 309 L858 319 L846 329" stroke="#777F89" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M934 352 V404" stroke="#777F89" stroke-width="3" stroke-linecap="round"/>
+  <path d="M924 394 L934 406 L944 394" stroke="#777F89" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M856 437 H824" stroke="#777F89" stroke-width="3" stroke-linecap="round"/>
+  <path d="M834 427 L822 437 L834 447" stroke="#777F89" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="682" y="500" width="322" height="44" rx="22" fill="#151515"/>
+  <text x="721" y="528" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Final draft + disclosure note</text>
+</svg>

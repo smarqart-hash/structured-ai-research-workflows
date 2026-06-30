@@ -139,7 +139,7 @@ If text is imperfect after two iterations, simplify the prompt and reduce labels
 
 ## Primary direction
 
-The primary direction should preserve the answer-versus-trail contrast, not introduce a new metaphor. The current 1200x630 asset is stored as `assets/social-preview-og.png`.
+The primary direction should preserve the answer-versus-trail contrast, not introduce a new metaphor. The current 1200x630 asset is stored as `assets/social-preview.png`.
 
 - title and subtitle at top,
 - left side: opaque `Answer` card,
@@ -151,8 +151,8 @@ Use the current PNG as a structural reference if editing or regenerating.
 
 ## Current visual assets
 
-- `assets/social-preview-og.png`: primary README/social preview.
-- `assets/mini-claim-ledger.png`: shows a filled claim-ledger row set from the README self-audit.
+- `assets/social-preview.png`: primary README/social preview.
+- `assets/claim-ledger-example.png`: shows an unsupported precise claim being dropped after source check.
 - `assets/interface-splitscreen.png`: shows normal chat/CLI use beside the research packet.
 - `assets/claim-lifecycle.png`: shows candidate claims moving through source check, keep/revise/drop, draft and recheck.
 

@@ -50,9 +50,9 @@ Create a brief with claim IDs.
 Separate supported claims, uncertain claims and source gaps.
 
 Sources:
-S-001: [publisher policy]
-S-002: [journal guidance]
-S-003: [disclosure guidance]
+S-001: Publisher AI policy
+S-002: Journal author guidance
+S-003: Disclosure guidance
 ```
 
 Possible assistant output:
@@ -62,7 +62,7 @@ C-001: Some publishers permit AI-assisted writing tasks when humans remain
 responsible for the final content. Supported by S-001 and S-002.
 
 C-002: AI systems can be listed as authors. Not supported; S-002 says human
-authors remain accountable. Drop.
+authors remain responsible. Drop.
 
 C-003: Useful disclosure should name the AI task, tool and human check.
 Supported by S-003.
@@ -78,7 +78,7 @@ research quality.
 | ID | Source | Type | Relevance | Limits |
 |---|---|---|---|---|
 | S-001 | Publisher AI policy | Policy | Shows conditional permission. | One publisher family only. |
-| S-002 | Journal author guidance | Guidance | Shows human accountability requirement. | Medical-journal context. |
+| S-002 | Journal author guidance | Guidance | Shows human responsibility requirement. | Medical-journal context. |
 | S-003 | Disclosure guidance | Guidance | Shows what useful disclosure should contain. | Does not evaluate research quality. |
 
 ### Claim ledger

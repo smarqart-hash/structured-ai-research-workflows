@@ -4,13 +4,17 @@ AI-assisted research with receipts.
 
 ![Structured AI Research Workflows social preview](assets/social-preview-og.png)
 
-A chatbot can give you an answer.
+This workflow leaves a trail when AI helps with research.
 
-This workflow leaves a trail.
+That trail matters when the answer will support a memo, article, policy note or a draft meant for publication. In those settings, a good-looking paragraph is not enough. Someone has to know what was claimed, where it came from, what remained uncertain, and who decided to keep it. Every important claim should carry its receipt: source support, review status and a human decision.
 
-That trail matters when the answer will support a memo, article, policy note or a draft meant for publication. In those settings, a good-looking paragraph is not enough. Someone has to know what was claimed, where it came from, what remained uncertain, and who decided to keep it.
+This repository documents a small workflow for AI-assisted research. The main output is an inspectable research packet: sources, claims, uncertainty, review findings, human decisions, disclosure and draft.
 
-This repository documents a small workflow for AI-assisted research. The main output is an inspectable research packet: claims, sources, uncertainty, review findings and human decisions.
+## This README is a worked example
+
+This README was written with the workflow it describes. Codex helped draft the structure, claims were logged, a skeptical-reviewer pass flagged overclaiming, and human decisions are recorded in the [README self-audit](examples/readme-self-audit.md).
+
+The trail is the proof.
 
 ## The problem
 
@@ -28,20 +32,28 @@ But if you return to it two days later, the uncomfortable questions start:
 
 For a casual question, that may not matter. For research that other people will rely on, it does.
 
-## What this adds
+## What This Adds
 
-The workflow adds four small artifacts around the AI output:
+The workflow uses a fixed artifact sequence:
 
+- Source log: the evidence behind the claims.
 - Claim ledger: the checkable statements.
-- Source log: the evidence behind them.
 - Review gate: the objections, failures and changes.
 - Decision log: the human calls that shaped the final text.
+- Disclosure: where AI helped and how the output was checked.
+- Draft: the final prose created from the surviving claims.
 
 The point is not to make AI sound more careful. The point is to make the work easier to inspect.
 
-![Evidence stack for AI-assisted research](assets/evidence-stack.png)
+![Mini claim ledger showing keep, revise and drop decisions](assets/mini-claim-ledger.png)
 
 A later reader, reviewer or decision-maker should be able to answer: which claims were made, which sources support them, where uncertainty remains, what changed during review, and where human judgment entered the process.
+
+## Why This Is AI-Specific
+
+This is not an annotated bibliography with new branding. Information literacy and source notes still matter, but LLM-assisted drafting adds a different failure mode: the drafting step itself can create new claims, stronger verbs, causal links or generalizations that were not present in any source.
+
+That is why this workflow checks both the candidate claims and the finished draft. The second pass is there because polished prose can quietly change the claim.
 
 ## Why not just use a better chatbot?
 
@@ -54,9 +66,9 @@ Better models help. They do not remove the need for a record.
 | New claims can appear during drafting without being noticed. | New draft claims get logged and checked. |
 | Weak evidence can become confident prose. | Evidence quality and confidence are separated. |
 | Review happens in the user's head. | Review findings become an artifact. |
-| Human judgment is implied. | Human decisions are named. |
+| Human judgment is implied. | Human decisions are recorded. |
 
-The difference is not polish. It is accountability.
+The difference is not polish. It is a record you can inspect.
 
 ## Quick start
 
@@ -87,18 +99,6 @@ Different readers need different proof.
 | A researcher, analyst or policy professional | How to run it on a real question | [Quick start](#quick-start), [How to use this workflow](docs/how-to-use.md), and [Interface walkthrough](docs/interface-walkthrough.md) |
 | An AI practitioner | Whether the method has substance beyond responsible-AI language | [Workflow](docs/workflow.md) and [Paper-COS pattern](docs/paper-cos-pattern.md) |
 | An editor, reviewer or publication lead | Disclosure, confidentiality and unpublished material | [Public/private boundary](docs/public-private-boundary.md) and [Publication-safety review example](examples/publication-safety-review-example.md) |
-| Skeptical of AI research claims | Whether this overclaims what AI can do | [What this is not](#what-this-is-not) and [Public/private boundary](docs/public-private-boundary.md) |
-| Evaluating this as a professional reference project | Judgment, source discipline and artifact design | This README, [AI-assisted research discourse](docs/ai-assisted-research-discourse.md), and [Discourse source log](docs/discourse-source-log.md) |
-
-## Use it when
-
-- A draft may be published, cited or reviewed.
-- Someone else may rely on the conclusion.
-- Sources disagree or vary in quality.
-- AI helped summarize, classify or draft source material.
-- Private, confidential or unpublished material may be nearby.
-
-Use a lighter version when you only need quick private orientation, the stakes are low, or the answer will not be reused.
 
 ## What this is
 
@@ -111,9 +111,10 @@ Use a lighter version when you only need quick private orientation, the stakes a
 
 - An autonomous research agent.
 - A claim of hallucination-free research.
+- A quality guarantee. The workflow makes the work inspectable; rigor still depends on the reviewer.
 - A substitute for domain expertise, peer review or methods training.
 - A public case archive for ongoing unpublished research.
-- A replacement for a systematic review protocol.
+- A replacement for information literacy, PRISMA-style protocols, model cards or evals.
 
 ## Repository map
 
@@ -129,6 +130,7 @@ Use a lighter version when you only need quick private orientation, the stakes a
 - [Source log template](templates/source-log.md)
 - [Review gate template](templates/review-gate.md)
 - [Decision log template](templates/decision-log.md)
+- [README self-audit](examples/readme-self-audit.md)
 - [Abstract verification example](examples/abstract-claim-verification-example.md)
 - [Publication-safety review example](examples/publication-safety-review-example.md)
 
@@ -138,10 +140,10 @@ Draft v0.1. This repository is intentionally small and docs-first.
 
 ## Try it
 
-Copy the templates and run the 30-minute workflow on one question. The goal is not to produce a perfect report. The goal is to see whether the answer still has a trail after AI helped create it.
+Copy the templates and run the 30-minute workflow on one real question. If the trail survives your own review, it works for you.
 
 ## How this repo was made
 
-OpenAI Codex drafted the initial structure and prose. Claude CLI reviewed the draft for clarity, overclaiming and publication-safety risk. The human author edited and remains responsible for the final content.
+OpenAI Codex helped draft the initial structure and prose. Claude CLI reviewed the draft for clarity, overclaiming and publication-safety risk. The human author edited and remains responsible for the final content. See the [README self-audit](examples/readme-self-audit.md) for the inspectable trail.
 
 I checked the public links in the discourse document on 2026-06-30. The repository does not intentionally include unpublished manuscript findings, reviewer reports or private research artifacts.

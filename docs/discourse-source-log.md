@@ -8,7 +8,7 @@ This is still not archival preservation. For a formal publication, add archived 
 
 | ID | Source | Type | Date checked | Relevance | Limits |
 |---|---|---|---|---|---|
-| DS-001 | ICMJE, "AI Use by Authors" | Guidance | 2026-06-30 | Human accountability and disclosure expectations for AI use by authors. | Medical-journal context. |
+| DS-001 | ICMJE, "AI Use by Authors" | Guidance | 2026-06-30 | Human responsibility and disclosure expectations for AI use by authors. | Medical-journal context. |
 | DS-002 | Elsevier generative AI policies | Publisher policy | 2026-06-30 | Publisher-side rules for AI-assisted writing and review. | One publisher family; not a universal policy. |
 | DS-003 | Nature on invalid references in AI-assisted manuscripts | News / analysis | 2026-06-30 | Citation-integrity risk and fabricated-reference concern. | News analysis, not a full cross-field audit. |
 | DS-004 | Nature survey coverage on researcher use and concerns | News / survey coverage | 2026-06-30 | Shows growing use and contested norms around AI-assisted research. | Survey framing and sample matter. |

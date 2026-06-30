@@ -7,8 +7,8 @@ A research draft can read well and still be uncheckable.
 This workflow shifts the center of gravity. The draft matters, but the artifacts around it matter just as much:
 
 - the question,
-- the claim set,
 - the source base,
+- the claim set,
 - the uncertainty,
 - the review findings,
 - the human decisions.
@@ -24,7 +24,8 @@ flowchart TD
     D --> VD["Verify the draft"]
     VD --> R["Review"]
     R --> H["Harden"]
-    H --> OUT["Final draft + disclosure note"]
+    H --> DN["Disclosure"]
+    DN --> OUT["Final draft"]
 
     B --> SL["Source log"]
     B --> CL["Claim ledger"]

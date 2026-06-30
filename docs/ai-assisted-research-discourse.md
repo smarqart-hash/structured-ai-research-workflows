@@ -15,7 +15,7 @@ Researchers, analysts and writers already use AI for search, summarization, draf
 The pattern is visible:
 
 - AI can assist.
-- Humans remain accountable.
+- Humans remain responsible.
 - Sources still need checking.
 - Confidential material needs special handling.
 - Disclosure needs detail, not a generic sentence.
@@ -24,7 +24,7 @@ That creates the opening for this repository. It asks how AI-assisted research s
 
 ## Main critique lines
 
-### 1. Accountability
+### 1. Human responsibility and inspectability
 
 AI systems cannot carry author responsibility. Humans remain responsible for claims, citations, interpretation and final decisions.
 
@@ -63,7 +63,7 @@ References:
 
 ### 5. Detector-based governance is weak
 
-AI writing detectors do not solve research integrity. They can be biased, easy to route around, and disconnected from the question that matters: is the work source-grounded and accountable?
+AI writing detectors do not solve research integrity. They can be biased, easy to route around, and disconnected from the question that matters: is the work source-grounded and inspectable?
 
 Reference:
 

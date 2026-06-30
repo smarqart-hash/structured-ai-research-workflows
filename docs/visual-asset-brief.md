@@ -38,19 +38,19 @@ Composition:
 
 - left side: a single smooth chatbot answer, visually opaque
 - right side: an inspectable research trail
-- the trail has four visible objects:
-  - Sources
-  - Claims
-  - Review
-  - Decisions
-- final object:
-  - Draft + disclosure
+- the trail has six visible objects:
+  - Source log
+  - Claim ledger
+  - Review gate
+  - Decision log
+  - Disclosure
+  - Draft
 
 Exact text to render:
 
 - Title: `AI-assisted research with receipts`
 - Subtitle: `A chatbot gives an answer. This workflow leaves a trail.`
-- Labels: `Sources`, `Claims`, `Review`, `Decisions`, `Draft + disclosure`
+- Labels: `Source log`, `Claim ledger`, `Review gate`, `Decision log`, `Disclosure`, `Draft`
 
 ## Prompt for ChatGPT Images / GPT Image
 
@@ -76,11 +76,12 @@ Left side:
 Right side:
 - a visible trail of connected cards
 - card labels exactly:
-  1. "Sources"
-  2. "Claims"
-  3. "Review"
-  4. "Decisions"
-  5. "Draft + disclosure"
+  1. "Source log"
+  2. "Claim ledger"
+  3. "Review gate"
+  4. "Decision log"
+  5. "Disclosure"
+  6. "Draft"
 - use simple arrows or a subtle path between the cards
 - make the right side feel structured, inspectable, and calm
 
@@ -113,11 +114,12 @@ Render these labels exactly:
 "A chatbot gives an answer. This workflow leaves a trail."
 "Answer"
 "Hard to check later"
-"Sources"
-"Claims"
-"Review"
-"Decisions"
-"Draft + disclosure"
+"Source log"
+"Claim ledger"
+"Review gate"
+"Decision log"
+"Disclosure"
+"Draft"
 Do not add any other words.
 Keep all text crisp and readable.
 ```
@@ -133,27 +135,26 @@ Accept the image only if:
 - it does not use robot/brain/sparkle imagery,
 - it works at small preview size.
 
-If text is imperfect after two iterations, simplify the prompt and reduce labels before falling back to SVG overlays. The default assumption should be that generated imagery is viable for the primary README/social asset.
+If text is imperfect after two iterations, simplify the prompt and reduce labels before falling back to deterministic text overlays. The default assumption should be that generated imagery is viable for the primary README/social asset.
 
-## First generated direction
+## Primary direction
 
-The first generated direction should be a direct visual upgrade of `assets/social-preview.svg`, not a new metaphor. The current generated asset is stored as `assets/social-preview-og.png`. The original generated image remains in the local Codex generated-images directory; only the optimized 1200x630 version belongs in the public repo.
+The primary direction should preserve the answer-versus-trail contrast, not introduce a new metaphor. The current 1200x630 asset is stored as `assets/social-preview-og.png`.
 
 - title and subtitle at top,
 - left side: opaque `Answer` card,
-- right side: five-card trail,
+- right side: six-card trail,
 - exact labels,
 - restrained editorial style.
 
-Use the SVG as a structural reference if editing or regenerating.
+Use the current PNG as a structural reference if editing or regenerating.
 
-## Current generated assets
+## Current visual assets
 
 - `assets/social-preview-og.png`: primary README/social preview.
-- `assets/evidence-stack.png`: shows the artifacts under the final draft.
+- `assets/mini-claim-ledger.png`: shows a filled claim-ledger row set from the README self-audit.
 - `assets/interface-splitscreen.png`: shows normal chat/CLI use beside the research packet.
 - `assets/claim-lifecycle.png`: shows candidate claims moving through source check, keep/revise/drop, draft and recheck.
-- `assets/social-preview.svg`: deterministic fallback and structural reference.
 
 ## Additional visual concepts
 
@@ -300,7 +301,7 @@ Acceptance criteria:
 - `Drop` is not visually dominant; the point is disciplined filtering, not alarm.
 - The diagram makes the second check after drafting obvious.
 
-### 3. Evidence stack: why the final draft can be trusted
+### 3. Mini claim ledger: where the proof becomes visible
 
 Best use:
 
@@ -310,45 +311,45 @@ Best use:
 
 Message:
 
-> The final paragraph is only the visible top. The useful work is the stack below it.
+> A claim is not trusted because it sounds polished. It is kept, revised or dropped because the source support and review decision are visible.
 
 Visual idea:
 
-- A layered stack or architectural section.
-- Top layer: Final draft.
-- Under it: Disclosure note.
-- Under it: Decision log.
-- Under it: Review gate.
-- Under it: Claim ledger.
-- Base: Source log.
-- Optional side label: Human accountability runs through the stack.
+- A clean table-like artifact, close to a screenshot but not pretending to be a real product UI.
+- Columns: ID, Claim, Source support, Status, Decision.
+- Rows show one kept claim, one revised claim and one dropped claim.
+- The status colors should be restrained: green for Keep, amber for Revise, muted red for Drop.
+- A small footer can show the canonical sequence: Source log -> Claim ledger -> Review gate -> Decision log -> Disclosure -> Draft.
 
 Exact labels:
 
-- `Final draft`
-- `Disclosure note`
-- `Decision log`
-- `Review gate`
-- `Claim ledger`
-- `Source log`
-- `Human accountability`
+- `ID`
+- `Claim`
+- `Source support`
+- `Status`
+- `Decision`
+- `Keep`
+- `Revise`
+- `Drop`
 
 Prompt:
 
 ```text
 Create a high-quality editorial explainer image, 1200x630 landscape.
 
-Show an evidence stack for AI-assisted research.
+Show a mini claim ledger for AI-assisted research.
 
 Composition:
-- a clean layered stack, like an architectural section or neatly stacked documents
-- bottom layer labeled exactly "Source log"
-- above it "Claim ledger"
-- above it "Review gate"
-- above it "Decision log"
-- above it "Disclosure note"
-- top layer labeled exactly "Final draft"
-- add a subtle vertical thread or bracket on the side labeled exactly "Human accountability"
+- a clean table artifact with five columns labeled exactly:
+  "ID", "Claim", "Source support", "Status", "Decision"
+- include three rows:
+  1. a kept claim
+  2. a revised claim
+  3. a dropped claim
+- include status pills labeled exactly:
+  "Keep", "Revise", "Drop"
+- add a small footer sequence:
+  "Source log -> Claim ledger -> Review gate -> Decision log -> Disclosure -> Draft"
 
 Style:
 - off-white background
@@ -365,6 +366,6 @@ Style:
 
 Acceptance criteria:
 
-- The stack reads instantly from bottom to top.
-- It does not look like a software architecture diagram.
-- The final draft appears supported by the artifacts below it, not magically produced.
+- The table reads instantly as a real artifact, not an abstract metaphor.
+- The statuses are legible at README size.
+- The graphic reinforces the canonical sequence without adding a second metaphor.

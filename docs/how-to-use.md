@@ -18,7 +18,7 @@ The first question can be checked. The second one invites a smooth essay with no
 
 ## The 30-minute version
 
-This is the fastest useful pass. It will not produce a perfect report. It will produce a checkable packet.
+This is the fastest useful pass. It produces a checkable packet you can review before the prose starts to feel settled.
 
 ### 1. Define the question
 

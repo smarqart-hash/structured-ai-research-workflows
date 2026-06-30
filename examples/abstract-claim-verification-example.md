@@ -16,7 +16,7 @@ This example is synthetic. It does not describe an unpublished manuscript or pri
 
 | ID | Source | Type | Date accessed | Relevance | Limits |
 |---|---|---|---|---|---|
-| S-001 | ICMJE, AI Use by Authors | Policy | 2026-06-30 | Sets human accountability and disclosure expectations. | Medical-journal focused. |
+| S-001 | ICMJE, AI Use by Authors | Policy | 2026-06-30 | Sets human responsibility and disclosure expectations. | Medical-journal focused. |
 | S-002 | Elsevier generative AI policies | Publisher policy | 2026-06-30 | Allows some AI use with restrictions. | Publisher-specific. |
 
 ## Revised sentence

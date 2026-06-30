@@ -4,7 +4,7 @@
 
 Paper-COS names the coordinating role in this workflow.
 
-COS means chief of staff. The role does not author conclusions. It keeps the work organized: question, sources, claims, reviews, decisions.
+COS means chief of staff. The role does not author conclusions. It keeps the work organized: question, source log, claim ledger, review gate, decision log, disclosure and draft.
 
 "Paper" points at the output the role serves: a publishable, inspectable piece of work. It does not mean the role does the writing.
 
@@ -13,11 +13,13 @@ The gates below are the same gates described in [Workflow](workflow.md). This do
 ```mermaid
 flowchart LR
     COS["Paper-COS"] --> Q["Question"]
-    COS --> S["Sources"]
-    COS --> C["Claims"]
+    COS --> S["Source log"]
+    COS --> C["Claim ledger"]
     COS --> V["Verification gates"]
-    COS --> R["Reviews"]
-    COS --> D["Human decisions"]
+    COS --> R["Review gate"]
+    COS --> D["Decision log"]
+    COS --> DS["Disclosure"]
+    COS --> DR["Draft"]
 
     Q --> OUT["Inspectable research packet"]
     S --> OUT
@@ -25,6 +27,8 @@ flowchart LR
     V --> OUT
     R --> OUT
     D --> OUT
+    DS --> OUT
+    DR --> OUT
 ```
 
 ## Responsibilities

@@ -10,7 +10,7 @@ This is still not archival preservation. For a formal publication, add archived 
 |---|---|---|---|---|---|
 | DS-001 | ICMJE, "AI Use by Authors" | Guidance | 2026-06-30 | Human responsibility and disclosure expectations for AI use by authors. | Medical-journal context. |
 | DS-002 | Elsevier generative AI policies | Publisher policy | 2026-06-30 | Publisher-side rules for AI-assisted writing and review. | One publisher family; not a universal policy. |
-| DS-003 | Nature on invalid references in AI-assisted manuscripts | News / analysis | 2026-06-30 | Citation-integrity risk and fabricated-reference concern. | News analysis, not a full cross-field audit. |
+| DS-003 | Inside Higher Ed on AI-created fake citations in journal submissions | News / analysis | 2026-07-01 | Citation-integrity risk and fabricated-reference concern, with editor accounts. | News analysis, not a full cross-field audit. |
 | DS-004 | Nature survey coverage on researcher use and concerns | News / survey coverage | 2026-06-30 | Shows growing use and contested norms around AI-assisted research. | Survey framing and sample matter. |
 | DS-005 | CDC suggested disclosure elements for generative AI use in scientific work | Institutional guidance | 2026-06-30 | Concrete disclosure fields: tool, task, affected content and human checking. | US public-health/scientific-work context. |
 | DS-006 | Nature on AI and peer review concerns | News / analysis | 2026-06-30 | Confidentiality and integrity risks in AI-assisted peer review. | News analysis, not a policy standard. |
@@ -34,7 +34,7 @@ The script checks both HTTP reachability and expected content markers. A resolvi
 
 - DS-001: https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html
 - DS-002: https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals
-- DS-003: https://www.nature.com/articles/d41586-026-00969-z
+- DS-003: https://www.insidehighered.com/news/faculty/books-publishing/2026/03/06/journal-submissions-riddled-ai-created-fake-citations
 - DS-004: https://www.nature.com/articles/d41586-025-00343-5
 - DS-005: https://www.cdc.gov/ai/resources/considerations-for-generative-ai-use-in-scientific-work.html
 - DS-006: https://www.nature.com/articles/d41586-025-00894-7

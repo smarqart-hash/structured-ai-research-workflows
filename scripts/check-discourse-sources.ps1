@@ -13,8 +13,8 @@ $sources = @(
   },
   @{
     Id = "DS-003"
-    Url = "https://www.nature.com/articles/d41586-026-00969-z"
-    Pattern = "reference|citation|AI"
+    Url = "https://www.insidehighered.com/news/faculty/books-publishing/2026/03/06/journal-submissions-riddled-ai-created-fake-citations"
+    Pattern = "fake citation|hallucinat|reference"
   },
   @{
     Id = "DS-004"

@@ -1,5 +1,7 @@
 # Structured AI Research Workflows
 
+[![CI](https://github.com/smarqart-hash/structured-ai-research-workflows/actions/workflows/ci.yml/badge.svg)](https://github.com/smarqart-hash/structured-ai-research-workflows/actions/workflows/ci.yml)
+
 AI-assisted research with receipts.
 
 ![Structured AI Research Workflows social preview](assets/social-preview.png)
@@ -135,6 +137,15 @@ Different readers need different proof.
 - [Hallucinated citations worked example](examples/hallucinated-citations/README.md)
 - [Abstract verification example](examples/abstract-claim-verification-example.md)
 - [Publication-safety review example](examples/publication-safety-review-example.md)
+
+## Related work
+
+This repository has a code sibling: [`inspectable-agent-pipelines`](https://github.com/smarqart-hash/inspectable-agent-pipelines).
+
+- `structured-ai-research-workflows`: how AI-assisted research keeps claims, sources, reviews and decisions inspectable.
+- `inspectable-agent-pipelines`: how agentic software workflows keep contracts, evals, run logs and decisions inspectable.
+
+The first is about research discipline. The second is about engineering discipline.
 
 ## Status
 

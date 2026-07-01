@@ -122,6 +122,7 @@ Different readers need different proof.
 - [Interface walkthrough](docs/interface-walkthrough.md)
 - [AI-assisted research discourse](docs/ai-assisted-research-discourse.md)
 - [Discourse source log](docs/discourse-source-log.md)
+- [Method roots and inspirations](docs/inspirations.md)
 - [Public/private boundary](docs/public-private-boundary.md)
 - [Workflow](docs/workflow.md)
 - [Paper-COS pattern](docs/paper-cos-pattern.md) - a "chief of staff" role for the work
